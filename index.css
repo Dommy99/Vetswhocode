@@ -1,6 +1,188 @@
-/* header */
+:root {
+    --primary-color: #b40096fa;
+    --secondary-color: #d2d820fa;
+    --tertiary-color: #000000;
+    --text-color: white;
+    --primary-color: #ffffff;
+    --secondary-color: #20d8cf9f;
+    --tertiary-color: #000000; 
+   }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+  }
+  
+  a,
+  p {
+    color: var(--secondary-color);
+    font-size: 30px;
+  }
 
-/* content */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  
+  
+  /* hero section */
+  .hero {
+    background-image: url(/dom-cutout.jpg);
+    height: 1158px;
+    width: 50%;
+    margin-bottom: 60px;
+    margin-left: 98px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+  }
+  
+  .hero h2 {
+    font-size: 60px;
+  }
+  
+  .hero p {
+    font-size: 30px;
+  }
+  
+  /* hero end */
+  
+  .my-work {
+    text-align: center;
+    display: flex;
+  }
+  
+  .my-work h2 {
+    color: var(--secondary-color);
+    padding-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  } */
+  
+  /* https://www.w3schools.com/css/css3_buttons.asp */
+  .button {
+    background-color: var(--tertiary-color);
+    border: solid 2px var(--secondary-color);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  img {
+    width: 2%;
+    
+  }
+  
+  /* footer section */
+  footer {
+    background-color: var(--primary-color);
+    margin: 100px 0 25px 0;
+    padding: 50px 40px;
+    border-radius: 110px;
+  }
+  
+  footer h2 {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  /* footer end */
+  
+  /* SEO */
+  
+   @media screen and (max-width: 980px) {
+    .hero {
+      height: 1158px;
+      width: 90%;
+      justify-content: right;
+      margin-left: 40px;
+    }
+    .name a {
+      border: none;
+      padding-left: 349px;
+    }
+    .hero h2 {
+      color: var(--tertiary-color);
+      padding-left: 20px;
+    }
+  
+    .hero p {
+      color: var(--tertiary-color);
+      padding-left: 38px;
+      font-weight: bold;
+    }
+  }
+  
+  @media screen and (max-width: 775px) {
+    .hero {
+      height: 1158px;
+      width: 90%;
+      justify-content: right;
+      margin-left: 40px;
+    }
+  
+    .name a {
+      border: none;
+      padding-left: 247px;
+    }
+  
+    .hero h2 {
+      color: var(--tertiary-color);
+    }
+  
+    .hero p {
+      color: var(--tertiary-color);
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .hero {
+      height: 1158px;
+      width: 90%;
+      justify-content: right;
+      margin-left: 20px;
+    }
+  
+    .hero h2 {
+      color: var(--tertiary-color);
+    }
+  
+    .hero p {
+      color: var(--tertiary-color);
+    }
+    .name a {
+      border: none;
+      padding-left: 67px;
+    }
 
-/* footer */
+    img {
+        width: 8%;
+    }
+  } 
+  
+  
 
